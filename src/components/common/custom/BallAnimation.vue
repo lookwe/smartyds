@@ -1,9 +1,9 @@
 <template>
     <div>
         <div :class="['btn-pulse','btn-pulse-'+type]">
-            <div class="btn-pulse-circle-1">&nbsp;</div>
-            <div class="btn-pulse-circle-2">&nbsp;</div>
-            <div class="btn-pulse-circle-3">&nbsp;</div>
+            <div class="btn-pulse-circle-1" :style="{'width': width +'px', 'height': width +'px' }">&nbsp;</div>
+            <div class="btn-pulse-circle-2" :style="{'width': width-20 +'px', 'height': width-20 +'px' }">&nbsp;</div>
+            <div class="btn-pulse-circle-3" :style="{'width': width-40 +'px', 'height': width-40 +'px' }">&nbsp;</div>
         </div>
     </div>
 </template>
@@ -12,9 +12,14 @@
     export default {
         name: "BallAnimation",
         props: {
+            /*可选 2=纯黄 3=纯白 5=深紫 6=橙黄 7=浅蓝 8=紫绿*/
             type: {
                 type: String,
-                default: "2"
+                default: "2",
+            },
+            width: {
+                type: String,
+                default: "80",
             }
         }
     }

@@ -4,7 +4,11 @@
         <!-- 头部 -->
         <m-head></m-head>
         <!-- 内容-->
-        <router-view></router-view>
+        <div id="NEXT-MAIN">
+            <router-view></router-view>
+        </div>
+
+        <!-- right 全局服务框 -->
 
         <!-- 底部-->
     </div>
@@ -26,5 +30,7 @@
 </script>
 
 <style scoped>
-
+  #NEXT-MAIN {
+      margin-top: 66px;
+  }
 </style>
