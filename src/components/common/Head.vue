@@ -70,6 +70,8 @@
         right: 0
         z-index: 999
         background: #fff
+        border-bottom: 1px solid #ebebeb
+        box-shadow: 0 7px 14px 0 rgba(0,0,0,0.07)
 
     .head-button
         width: 150px
