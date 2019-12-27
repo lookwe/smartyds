@@ -8,25 +8,23 @@
             <router-view></router-view>
         </div>
 
-        <right-serve></right-serve>
+        <right-serve class="hidden-xs"></right-serve>
         <!-- right 全局服务框 -->
 
         <!-- 底部-->
+        <m-footer></m-footer>
     </div>
 </template>
 
 <script>
     import mHead from '../components/common/Head'
+    import mFooter from '../components/common/Footer'
     import rightServe from '../components/common/custom/MostRightServe'
     export default {
         name: "Index",
-        data() {
-            return {
-
-            }
-        },
         components: {
             mHead,
+            mFooter,
             rightServe
         }
     }
@@ -34,13 +32,48 @@
 
 <style>
     #NEXT-MAIN {
-      margin-top: 66px;
+        margin-top: 75px;
+        font-style: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-weight: 400;
+        font-stretch: normal;
+        font-size: 16px;
+        line-height: 28px;
+        font-family: Montserrat, sans-serif;
     }
 
-    /*公共样式*/
-    .index .color-fff{
-      color: #fff;
+    /* -- max 宽 ---  */
+    @media (max-width: 967px) {
+        .visible-xs {
+            display: block !important;
+        }
+        .hidden-xs {
+            display: none;
+        }
+        .margin-center-xs {
+            width: 100%!important;
+            margin: 0 auto!important;
+        }
     }
+
+
+
+    /*公共样式*/
+    .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .color-fff{
+      color: #fff;
+
+    }
+    .back-fff {
+        background: #fff;
+    }
+
     h2 {
         color: #000;
         letter-spacing: 0.025em;
@@ -53,11 +86,15 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    .m-b-60 {
+        margin-bottom: 60px;
+    }
 
 
 /*---- 公共渐变按钮 ----*/
   .bnt {
-      width: 222px;
+      max-width: 222px;
+      min-width: 180px;
       background-color: transparent;
       border: 0;
       -webkit-box-shadow: 3px 15px 35px 0 rgba(0,0,0,0.24);
@@ -88,6 +125,10 @@
     }
 
 
+    .ep-product-card {
+        min-height: 390px;
+        position: relative;
+    }
     @media (min-width: 992px){
         .ep-product-card {
             max-width: 391px;

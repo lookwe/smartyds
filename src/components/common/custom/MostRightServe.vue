@@ -2,11 +2,11 @@
     <div class="most-right-serve">
 
         <ul class="floating-socials">
-            <li><a href="#">www</a></li>
-            <li><a href="#">eeee</a></li>
-            <li><a href="#">rrrr</a></li>
-            <li><a href="#">tttt</a></li>
-            <li><a href="#">yyyy</a></li>
+            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+            <li><a href="#"><i class="fa fa-weixin"></i></a></li>
+            <li><a href="#"><i class="fa fa-qq"></i></a></li>
         </ul>
         <ul class="floating-socials floating-socials_sign-me">
             <li>
@@ -15,7 +15,7 @@
         </ul>
 
         <ul class="floating-socials floating-socials_sign-me">
-           <div> > </div>
+           <div><i class="fa fa-chevron-up fa-lg"></i></div>
         </ul>
     </div>
 </template>
@@ -23,7 +23,6 @@
 <script>
     export default {
         name: "MostRightServe",
-
     }
 </script>
 
@@ -34,6 +33,9 @@
         top: 150px;
         z-index: 9999;
         height: 600px;
+        i {
+            color: #740B99;
+        }
 
         .floating-socials {
             width: 60px;
@@ -59,8 +61,6 @@
                     transform: scale(1);
                     transition: transform .15s,-webkit-transform .15s;
                     transform-origin: center center;
-
-                    color: #740B99;
                 }
             }
         }

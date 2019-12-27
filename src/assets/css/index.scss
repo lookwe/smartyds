@@ -1,2 +1,8 @@
-@import 'node_modules/bootstrap/scss/bootstrap';
-@import 'node_modules/bootstrap-vue/src/index.scss';
+@import '~bootstrap';
+@import '~bootstrap-vue';
+
+ul {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
