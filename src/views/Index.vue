@@ -8,8 +8,8 @@
             <router-view></router-view>
         </div>
 
-        <right-serve class="hidden-xs"></right-serve>
         <!-- right 全局服务框 -->
+        <right-serve class="hidden-xs"></right-serve>
 
         <!-- 底部-->
         <m-footer></m-footer>

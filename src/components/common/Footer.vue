@@ -141,7 +141,7 @@
                 </b-row>
             </b-container>
         </section>
-
+        <!-- 版权 -->
         <section style="margin-top: 20px">
             <b-container fluid>
                 <b-row>
@@ -163,7 +163,7 @@
 
 <script>
     export default {
-        name: "footer",
+        name: "vFooter",
         computed: {
             thisYear() {
                 return new Date().getFullYear();
@@ -175,6 +175,7 @@
 <style scoped lang="scss">
 
     .footer {
+        background: #fff;
         .footer-heading {
             margin: 0 0 30px;
             line-height: 1.2;
@@ -182,8 +183,10 @@
         }
         .footer-country-title-title {
             margin: 20px 0;
+            i {
+                -webkit-animation: jt linear infinite 1.5s;
+            }
         }
-
         ul.fun-list {
             li>span{
                 color: #000;
@@ -220,6 +223,20 @@
            font-size: .85rem
         }
     }
+
+    @keyframes jt {
+        0% {
+            font-size: 1rem;
+        }
+
+        50% {
+            font-size: 1.45rem;
+        }
+        100% {
+            font-size: 1rem;
+        }
+    }
+
 
 
     /* md以下 手机 */

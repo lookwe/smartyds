@@ -21,7 +21,7 @@
                         <span class="text-muted">Publishers and App Developers</span>
                     </b-nav-item>
                     <b-nav-item href="#">
-                        <span class="text-muted">About</span>
+                        <router-link to="/about-us" class="text-muted">About</router-link>
                     </b-nav-item>
                     <b-nav-item href="#">
                         <span class="text-muted">Blog</span>

@@ -12,13 +12,23 @@ const router = new VueRouter({
             },
             children: [
                 {
-                    path: '/a',
+                    path: '/home',
                     redirect: '/'
                 },
                 {
                     path: '/',
                     component: resolve => require(['@/views/Home.vue'], resolve),
                     meta: { requireAuth: true}
+                },
+                {
+                    path: '/about-us',
+                    name: 'aboutUs',
+                    component: () => import('@/views/About/index.vue')
+                },
+                {
+                    path: '/targeting-solutions',
+                    name: 'AdLocation',
+                    component: () => import('@/views/bidder/AdLocation.vue')
                 }
             ]
         }

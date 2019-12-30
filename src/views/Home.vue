@@ -427,32 +427,15 @@
             </b-container>
         </section>
 
-        <section style="position: relative" v-if="false">
-            <div style="position: absolute;bottom: 0;left: 0">
-                <div style="position: relative;">
-                    <parallax :fixed="true">
-                        <img src="https://c1exchange.com/images/stories/joomla/sample-6.jpg">
-                        <div style="width: 250px;height: 250px;background: brown">111111111111</div>
-                    </parallax>
-                </div>
-                <div>
-                    <div style="background-color: #fff; height: 500px;margin-top: -300px"></div>
-                </div>
-            </div>
-        </section>
     </div>
 </template>
 
 <script>
     import ballAnimation from '.././components/common/custom/BallAnimation'
-    import parallax from 'vue-parallaxy'
 
     export default {
         name: "Home",
-        components: {
-            ballAnimation,
-            parallax
-        },
+        components: { ballAnimation, },
     }
 </script>
 
