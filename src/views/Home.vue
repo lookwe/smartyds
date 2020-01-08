@@ -14,7 +14,7 @@
                                 <div class="col-lg-8 col-md-12 col-sm-12">
                                     <div class="head-adver-box">
                                         <div class="head-top-mavigation">
-                                            <h1 class="color-fff" style="font-weight: bolder;font-size: 3rem">
+                                            <h1 class="color-fff" style="font-weight: bolder;">
                                                 Full Stack Programmatic <br>
                                                 Advertising At Scale
                                             </h1>

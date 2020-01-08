@@ -1,0 +1,42 @@
+/* 响应式 */
+
+/* -- max 宽 ---  */
+@media (max-width: 967px) {
+  .visible-xs {
+    display: block !important;
+  }
+  .hidden-xs {
+    display: none;
+  }
+  .margin-center-xs {
+    width: 100%!important;
+    margin: 0 auto!important;
+  }
+}
+
+
+
+
+/* 台式桌面以上 lg 浏览器*/
+@media (min-width: 1199.99px) {
+
+}
+
+/* 台式桌面 lg 浏览器*/
+@media (max-width: 1199.98px) {
+
+}
+
+
+/* 小于桌面模式下 md 平板*/
+@media (max-width: 991.98px) {
+
+}
+
+/* 中小以下 sm 小屏幕*/
+@media (max-width: 768px) {
+
+}
+
+
+

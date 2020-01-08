@@ -22,11 +22,7 @@
                                     </div>
 
                                     <div class="footer-country-title-title">
-                                        马来西亚 <i class="fa fa-angle-double-down"></i>
-                                    </div>
-
-                                    <div class="footer-country-title-title">
-                                        韩国 <i class="fa fa-angle-double-down"></i>
+                                        乌克兰 <i class="fa fa-angle-double-down"></i>
                                     </div>
 
                                     <div class="footer-country-title-title">
@@ -176,6 +172,7 @@
 
     .footer {
         background: #fff;
+        z-index: 10;
         .footer-heading {
             margin: 0 0 30px;
             line-height: 1.2;
@@ -184,7 +181,7 @@
         .footer-country-title-title {
             margin: 20px 0;
             i {
-                -webkit-animation: jt linear infinite 1.5s;
+               // -webkit-animation: jt linear infinite 1.5s;
             }
         }
         ul.fun-list {

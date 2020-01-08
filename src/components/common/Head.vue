@@ -2,7 +2,7 @@
     <div class="top-navigation">
         <b-navbar toggleable="lg" type="light" fixed="top">
             <!-- 公司名、项目名 -->
-            <b-navbar-brand href="#">
+            <b-navbar-brand href="#" @click="toIndex">
                 <img src="../../assets/images/img/logo.jpg" alt="logo" width="150px">
             </b-navbar-brand>
 
@@ -14,18 +14,25 @@
                 <!-- 全高和轻量级导航（包括对下拉菜单的支持） -->
                 <b-navbar-nav>
                     <!-- 用于连接 跳转路由操作 -->
-                    <b-nav-item href="#">
+                  <!--  <b-nav-item href="#">
                         <span class="text-muted">Brands and Agencies</span>
                     </b-nav-item>
                     <b-nav-item href="#">
                         <span class="text-muted">Publishers and App Developers</span>
+                    </b-nav-item>-->
+
+
+                    <!--<b-nav-item href="#">
+                        <span class="text-muted">Blog</span>
+                    </b-nav-item>-->
+                    <b-nav-item href="#">
+                        <router-link to="/targeting-solutions" class="text-muted">Audience Targeting</router-link>
                     </b-nav-item>
+
                     <b-nav-item href="#">
                         <router-link to="/about-us" class="text-muted">About</router-link>
                     </b-nav-item>
-                    <b-nav-item href="#">
-                        <span class="text-muted">Blog</span>
-                    </b-nav-item>
+
 
                     <!-- 导航下拉框 -->
                    <!-- <b-nav-dropdown></b-nav-dropdown>-->
@@ -61,13 +68,16 @@
         methods: {
             getMeal() {
 
+            },
+            toIndex() {
+                this.$router.push({ path: "/" })
             }
         },
         mounted() {
-            this.$root.$on('bv::collapse::state', (collapseId, isJustShown) => {
+            /*this.$root.$on('bv::collapse::state', (collapseId, isJustShown) => {
                 console.log('collapseId:', collapseId)
                 console.log('isJustShown:', isJustShown)
-            })
+            })*/
         }
     }
 </script>
