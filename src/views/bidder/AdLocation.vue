@@ -132,9 +132,6 @@
 <script>
     export default {
         name: "AdLocation",
-        data() {
-            return {};
-        },
         mounted() {
             let can = document.getElementById("mycanvas");
             let ctx = can.getContext("2d");

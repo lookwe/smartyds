@@ -16,9 +16,7 @@
 
         <b-container>
             <b-row>
-                <div class="container2 col-12" style="height: 250px;background-color: #fff;margin: 0 auto;border-radius: 15px;
-        box-shadow: 2px 10px 32px 8px rgba(0,0,0,0.1);padding: 30px;line-height: 3;margin-top: -125px;
-">
+                <div class="container2 col-12 center-box">
                     <div class="text-muted">SmartyAds provides a full-stack package of complex AdTech solutions for digital advertisers,
                         publishers, and ad agencies worldwide. Our innovative products help businesses to achieve impressive results
                         across all channels, devices and ad formats. Finding new possibilities within artificial intelligence,
@@ -33,7 +31,7 @@
             <section style="margin: 40px 0;">
                 <b-container>
                     <b-row>
-                        <div class="col-md-4">
+                        <div class="col-6">
                             <h2>Our Mission</h2>
                         </div>
                     </b-row>
@@ -41,14 +39,15 @@
                     <b-row>
                         <div class="col-md-12">
                             <b-row>
-                                <div class="col-md-6 col-sm-12">
+                                <div class="col-lg-6 col-md-12">
                                     <div class="text-muted" style="line-height: 3">
                                         Our mission is to design high-quality solutions that fully automate digital advertising. We help media buyers to reach their target audiences, deliver high-impact brand messages and drive revenues that exceed the most daring expectations. At the same time, we provide media owners with tools for effective web/mobile content monetization that leads to the best CPMs and higher fill rates. SmartyAds’ products allow launching highly predictive, optimized and consumer-oriented ad campaigns of any size.
                                     </div>
                                 </div>
 
-                                <div class="col-md-6 col-sm-auto">
-                                    <img src="@/assets/images/img/about-us-our-mission.svg" alt="img">
+                                <!-- 平板宽度0 -->
+                                <div class="col-lg-6 col-md-auto">
+                                    <img class="img-responsive" src="@/assets/images/img/about-us-our-mission.svg" alt="img">
                                 </div>
                             </b-row>
                         </div>
@@ -59,7 +58,7 @@
             <section style="margin: 40px 0;">
                 <b-container>
                     <b-row>
-                        <div class="col-md-4">
+                        <div class="col-6">
                             <h2>Our Offering</h2>
                         </div>
                     </b-row>
@@ -69,6 +68,12 @@
                             <div class="text-muted" style="line-height: 3">
                                 All of our programmatic solutions easily integrate with all other point solutions used in the digital advertising industry.
                             </div>
+
+                            <b-row>
+                                <div class="col-md-12">
+
+                                </div>
+                            </b-row>
                         </div>
                     </b-row>
                 </b-container>
@@ -91,7 +96,7 @@
             var hei = window.innerHeight;
             can.width = wid;
             can.height = hei;
-            var snow = 100;
+            var snow = 300;
             //雪花坐标、半径
             var arr = []; //保存各圆坐标及半径
             for (var i = 0; i < snow; i++) {
@@ -105,7 +110,7 @@
             //画雪花
             function DrawSnow() {
                 ctx.clearRect(0, 0, wid, hei);
-                ctx.fillStyle = "white";
+                ctx.fillStyle = "#FEFEFE";
                 ctx.beginPath();
                 for (var i = 0; i < snow; i++) {
                     var p = arr[i];
@@ -219,16 +224,16 @@
             transition: all 0.2s;
         }
 
-        .h-t-btn.btn-shadow:hover {
-            -webkit-box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.24);
-            box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.24);
-        }
 
         .container2 {
             position: relative;
             width: 100%;
             height: 100%;
             background: white;
+            &.center-box {
+                height:auto;background-color: #fff;margin: 0 auto;border-radius: 15px;
+                box-shadow: 2px 10px 32px 8px rgba(0,0,0,0.1);padding: 30px;line-height: 3;margin-top: -125px;
+            }
         }
 
         .box {
@@ -237,28 +242,6 @@
             width: 70%;
             margin: 0 auto;
             margin-bottom: 50px;
-        }
-
-        .box-1-title {
-            margin-bottom: 60px;
-        }
-
-        .box-items {
-            display: flex;
-            margin-top: 60px;
-            padding: 20px 20px;
-            border-radius: 20px;
-            transition: all 0.2s;
-        }
-
-        .box-i-1 {
-            flex: 1;
-        }
-
-        .box-i-1 h3 {
-            max-width: 300px;
-            font-weight: 600;
-            line-height: 1.8em;
         }
 
         .box-i-2 {
@@ -271,86 +254,6 @@
             font: 400 16px/28px "Montserrat", sans-serif;
         }
 
-        .box-items:hover {
-            background: #fff;
-            -webkit-box-shadow: 2px 10px 32px 8px rgba(0, 0, 0, 0.1);
-            box-shadow: 2px 10px 32px 8px rgba(0, 0, 0, 0.1);
-            color: #740b99;
-        }
-
-        .box-2-1-bg1 {
-            background: url("../../assets/images/img/wls-dsp-targeting.svg") no-repeat;
-            width: 100px;
-            height: 105px;
-            background-size: 100%;
-        }
-
-        .box-2-1-bg2 {
-            background: url("../../assets/images/img/dsp-targeting.svg") no-repeat;
-            width: 100px;
-            height: 105px;
-            background-size: 100%;
-        }
-
-        .box-2-1-bg3 {
-            background: url("../../assets/images/img/ic.svg") no-repeat;
-            width: 100px;
-            height: 105px;
-            background-size: 100%;
-        }
-
-        .box-ul {
-            display: flex;
-        }
-
-        .box-ul {
-            flex: 1;
-        }
-
-        .box-2-2 {
-            margin: 50px auto 30px;
-            font-size: 26px;
-            line-height: 42px;
-            font-weight: 700;
-        }
-
-        .box-2-3 {
-            letter-spacing: 0.025em;
-            /* line-height: 3.3em; */
-            font: 400 16px/28px "Montserrat", sans-serif;
-            -webkit-font-smoothing: antialiased;
-            font-size: 18px;
-            margin-right: 30px;
-            color: #666;
-        }
-
-        .box-3 {
-            margin-top: 120px;
-        }
-
-        .box-1-title {
-            margin-bottom: 60px;
-        }
-
-        .box-3-img > img {
-            border-radius: 20px;
-            margin-bottom: 30px;
-            box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .box-3-text {
-            color: #000000;
-            text-decoration: none;
-            font-weight: bold;
-            line-height: 30px;
-            font-size: 18px;
-        }
-
-        .box-3-data {
-            line-height: 28px;
-            font-size: 16px;
-            color: #606060;
-        }
     }
 
     @media screen and (max-width: 1400px) {
@@ -372,9 +275,7 @@
             margin-left: 10%;
         }
 
-        .box-i-1 h3 {
-            max-width: 300px;
-        }
+
     }
 
     @media screen and (max-width: 900px) {
@@ -419,32 +320,6 @@
             line-height: 1.9;
             /* margin-left: 26% */
             margin: 0 auto;
-        }
-
-        .box-1-title {
-            font-size: 28px;
-        }
-
-        .box-items {
-            flex-direction: column;
-            margin-left: -20px;
-            padding: 20px;
-        }
-
-        .box-i-1 h3 {
-            max-width: 100%;
-        }
-
-        .box-ul {
-            flex-direction: column;
-        }
-
-        .box-2-items {
-            margin-top: 20px;
-        }
-
-        .box-3 {
-            margin-top: 80px;
         }
     }
 
