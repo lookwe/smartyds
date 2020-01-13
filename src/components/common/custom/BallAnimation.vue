@@ -2,8 +2,8 @@
     <div>
         <div :class="['btn-pulse','btn-pulse-'+type]">
             <div class="btn-pulse-circle-1" :style="{'width': width +'px', 'height': width +'px' }">&nbsp;</div>
-            <div class="btn-pulse-circle-2" :style="{'width': width-20 +'px', 'height': width-20 +'px' }">&nbsp;</div>
-            <div class="btn-pulse-circle-3" :style="{'width': width-40 +'px', 'height': width-40 +'px' }">&nbsp;</div>
+            <div class="btn-pulse-circle-2" :style="{'width': width-40 +'px', 'height': width-40 +'px', 'margin': '-15px 0 0 -15px' }">&nbsp;</div>
+            <div class="btn-pulse-circle-3" :style="{'width': width-60 +'px', 'height': width-60 +'px', 'margin': '-5px 0 0 -5px' }">&nbsp;</div>
         </div>
     </div>
 </template>

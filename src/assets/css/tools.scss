@@ -14,3 +14,23 @@
 .m-b-60 {
   margin-bottom: 60px;
 }
+
+/* 用于长篇文字 有浅色字体间隔开效果 */
+.text-muted {
+  letter-spacing: 0.025em;
+}
+.text {
+  letter-spacing: 0.025em;
+}
+
+/* 中小以下 sm 小屏幕下隐藏 */
+@media (max-width: 768px) {
+  .hidden-sm {
+    display: none !important;
+  }
+
+  .sm-shadow {
+    -webkit-box-shadow: 0 7px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 7px 20px rgba(0,0,0,0.1);
+  }
+}

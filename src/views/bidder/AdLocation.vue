@@ -1,6 +1,6 @@
 <template>
     <!-- 定位 -->
-    <div style="width: 100%;text-align: center;line-height: 100px;height:auto;overflow: hidden;">
+    <div class="ad-location">
         <div class="header">
             <div class="img-fixed">
                 <img src="@/assets/images/uploads/rtbts-header.jpg" alt="img"/>
@@ -191,6 +191,10 @@
 </script>
 
 <style scoped lang="scss">
+    .ad-location {
+        width: 100%;text-align: center;line-height: 100px;height:auto;overflow: hidden;
+    }
+
     @media screen and (max-width: 2200px) {
         * {
             text-align: left;
@@ -244,7 +248,7 @@
             cursor: pointer;
         }
 
-        .btn {
+        .h-t-btn.btn {
             background: #fff;
             color: #000;
             border-color: #fff;
