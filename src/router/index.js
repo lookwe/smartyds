@@ -29,7 +29,17 @@ const router = new VueRouter({
                     path: '/targeting-solutions',
                     name: 'AdLocation',
                     component: () => import('@/views/bidder/AdLocation.vue')
-                }
+                },
+                {
+                    path: '/video-ad-formats',
+                    name: 'video',
+                    component: () => import('@/views/bidder/AdVideo.vue')
+                },
+                {
+                    path: '/native-ad-formats',
+                    name: 'native',
+                    component: () => import('@/views/bidder/AdNative.vue')
+                },
             ]
         }
     ]

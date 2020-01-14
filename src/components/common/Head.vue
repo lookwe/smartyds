@@ -33,6 +33,14 @@
                         <router-link to="/about-us" class="text-muted">About</router-link>
                     </b-nav-item>
 
+                    <b-nav-item href="#">
+                        <router-link to="/video-ad-formats" class="text-muted">Video</router-link>
+                    </b-nav-item>
+
+                    <b-nav-item href="#">
+                        <router-link to="/native-ad-formats" class="text-muted">Native</router-link>
+                    </b-nav-item>
+
 
                     <!-- 导航下拉框 -->
                    <!-- <b-nav-dropdown></b-nav-dropdown>-->

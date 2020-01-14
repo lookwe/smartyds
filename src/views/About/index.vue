@@ -28,7 +28,7 @@
         </b-container>
 
         <div class="container2" style="overflow: hidden;margin: 0 auto;margin-top: 30px">
-            <section style="margin: 40px 0;">
+            <section class="section-content">
                 <b-container>
                     <b-row>
                         <div class="col-12">
@@ -55,7 +55,7 @@
                 </b-container>
             </section>
 
-            <section style="margin: 40px 0;">
+            <section class="section-content">
                 <b-container>
                     <b-row>
                         <div class="col-12">
@@ -93,7 +93,7 @@
                 </b-container>
             </section>
 
-            <section style="margin: 40px 0;">
+            <section class="section-content">
                 <b-container>
                     <b-row>
                         <div class="col-12">
@@ -137,7 +137,7 @@
                 </b-container>
             </section>
 
-            <section style="margin: 40px 0;">
+            <section class="section-content">
                 <b-container>
                     <b-row>
                         <div class="col-12">
@@ -153,7 +153,7 @@
                 </b-container>
             </section>
 
-            <section style="margin: 40px 0;">
+            <section class="section-content">
                 <b-container>
                     <b-row>
                         <div class="col-12">
@@ -184,7 +184,7 @@
                 </b-container>
             </section>
 
-            <section style="margin: 40px 0;">
+            <section style="margin: 40px 0 60px 0;">
                 <b-container>
                     <b-row>
                         <div class="col-12 card full-screen-card">
@@ -289,6 +289,9 @@
         border: 1px solid #777;
         text-align: center;
     }
+    .section-content {
+        margin: 40px 0;
+    }
     .a-bout {
         width: 100%;text-align: center;height:auto;overflow: hidden;
 
@@ -372,7 +375,8 @@
             z-index: 10;
         }
         .card-tent {
-            margin: 40px 0  0 40px
+            margin: 40px 0  0 40px;
+            z-index: 10;
         }
     }
 
@@ -535,14 +539,7 @@
             /* text-align: center */
         }
 
-        .h-t-btn {
-            width: 167px;
-            height: 50px;
-            border-radius: 25px;
-            line-height: 1.9;
-            /* margin-left: 26% */
-            margin: 0 auto;
-        }
+
     }
 
 
