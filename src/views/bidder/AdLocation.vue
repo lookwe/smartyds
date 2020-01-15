@@ -1,6 +1,6 @@
 <template>
     <!-- 定位 -->
-    <div class="ad-location">
+    <div class="location">
         <div class="header">
             <div class="img-fixed">
                 <img src="@/assets/images/uploads/rtbts-header.jpg" alt="img"/>

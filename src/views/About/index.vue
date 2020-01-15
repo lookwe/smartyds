@@ -314,7 +314,6 @@
         &:hover {
             background-color: #F5F5F5;
         }
-
     }
 
     .our {
@@ -369,7 +368,7 @@
     }
 
     .card {
-        height: 350px;
+        min-height: 350px;
         .card-ball {
             position: absolute;top: 80px;right: 15%;
             z-index: 10;
@@ -421,7 +420,8 @@
         }
 
         .card {
-            height: 500px;
+            min-height: 500px;
+            padding-bottom: 30px;
             .card-ball {
                 top: 15px;
                 left: 30px;

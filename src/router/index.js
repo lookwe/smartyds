@@ -37,7 +37,7 @@ const router = new VueRouter({
                 },
                 {
                     path: '/native-ad-formats',
-                    name: 'native',
+                    name: 'adNative',
                     component: () => import('@/views/bidder/AdNative.vue')
                 },
             ]

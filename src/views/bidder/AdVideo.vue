@@ -1,6 +1,6 @@
 <template>
   <!-- 定位 -->
-  <div class="ad-location">
+  <div class="video">
     <div class="header">
       <div class="img-fixed">
         <img
@@ -387,7 +387,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.ad-location {
+.video {
   width: 100%;
   text-align: center;
   //   line-height: 100px;
@@ -990,7 +990,7 @@ export default {
     top: 0;
   }
   .box3-container {
-    height: 672px;
+    height: auto;
     padding: 236px 30px 70px;
   }
   //     .ADvideo_text1 {

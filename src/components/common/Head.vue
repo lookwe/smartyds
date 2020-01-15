@@ -34,12 +34,14 @@
                     </b-nav-item>
 
                     <b-nav-item href="#">
-                        <router-link to="/video-ad-formats" class="text-muted">Video</router-link>
+                        <router-link to="/native-ad-formats" class="text-muted">Native</router-link>
                     </b-nav-item>
 
                     <b-nav-item href="#">
-                        <router-link to="/native-ad-formats" class="text-muted">Native</router-link>
+                        <router-link to="/video-ad-formats" class="text-muted">Video</router-link>
                     </b-nav-item>
+
+
 
 
                     <!-- 导航下拉框 -->
