@@ -1,0 +1,12 @@
+<svg width="60" height="97" viewBox="0 0 60 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M53 80H7" stroke="#740B99" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M7 12H53" stroke="#740B99" stroke-width="2" stroke-miterlimit="10"/>
+<rect x="8" y="17" width="44" height="6" rx="1.5" stroke="#740B99" stroke-width="2"/>
+<rect x="8" y="28" width="44" height="6" rx="1.5" stroke="#740B99" stroke-width="2"/>
+<rect x="8" y="39" width="44" height="6" rx="1.5" stroke="#740B99" stroke-width="2"/>
+<rect x="8" y="50" width="44" height="6" rx="1.5" stroke="#740B99" stroke-width="2"/>
+<rect x="8" y="61" width="44" height="14" rx="3" stroke="#740B99" stroke-width="2"/>
+<path d="M51.803 1H8.19699C4.22219 1 1 4.20539 1 8.15948V88.8405C1 92.7946 4.22219 96 8.19699 96H51.803C55.7778 96 59 92.7946 59 88.8405V8.15948C59 4.20539 55.7778 1 51.803 1Z" stroke="#740B99" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M34 88.5092C34.0018 87.8166 33.7981 87.139 33.4146 86.5622C33.0312 85.9854 32.4852 85.5354 31.8458 85.2691C31.2065 85.0028 30.5024 84.9321 29.8229 85.0661C29.1433 85.2001 28.5188 85.5328 28.0284 86.0219C27.538 86.511 27.2037 87.1346 27.0679 87.8138C26.9321 88.493 27.0011 89.1972 27.2657 89.8373C27.5303 90.4773 27.9788 91.0245 28.5546 91.4095C29.1304 91.7945 29.8073 92 30.5 92C31.4266 92 32.3156 91.6325 32.9717 90.9781C33.6278 90.3237 33.9976 89.4359 34 88.5092V88.5092Z" stroke="#740B99" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M24 7H35.9299" stroke="#740B99" stroke-width="2" stroke-miterlimit="10"/>
+</svg>

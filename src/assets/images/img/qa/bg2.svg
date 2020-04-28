@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1170px" height="788px" viewBox="0 0 1170 788" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>99312C69-1193-44BE-A331-0EADC597E0D1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="96.7609159%" x2="50%" y2="15.8241439%" id="linearGradient-1">
+            <stop stop-color="#009CF2" stop-opacity="0.0873245018" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.37035779" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.463504464" stroke-opacity="0.331776495">
+        <g id="Quantum-Analytics-1" transform="translate(-135.000000, -2008.000000)" fill="url(#linearGradient-1)" stroke="#FFFFFF" stroke-width="3">
+            <g id="Group-5" transform="translate(135.000000, 1848.000000)">
+                <path d="M-135,829.436977 C-135,829.436977 -79.7522145,802.071252 -14.5393701,771.343749 C50.6734743,740.616246 57.9513328,679.509145 100.185039,663.763697 C142.418746,648.018249 145.324141,721.758102 222.079724,683.128106 C298.835308,644.49811 276.522874,559.965968 326.765748,549.728842 C377.008622,539.491716 407.290531,633.405174 454.396654,635.792884 C501.502776,638.180593 638.587563,281.965083 672.373031,250.656297 C706.1585,219.347512 764.101628,368.736313 811.476378,364.691152 C858.851128,360.645992 902.165209,155.294039 976.392717,162.440655 C1050.62022,169.58727 1051.00702,202.790759 1118.36417,201.169474 C1185.72132,199.548189 1218.3421,164.868594 1244.56102,155.985852 C1270.77995,147.103109 1294.75295,201.169473 1294.75295,201.169473 L1322,289.385116 L1322,948 L-135,947.999991 L-135,829.436977 Z" id="chart2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

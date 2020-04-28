@@ -1,0 +1,11 @@
+<svg width="1440" height="703" viewBox="0 0 1440 703" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="main_img" style="mix-blend-mode:multiply">
+<path id="Rectangle 6" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H1440V682.379C1440 682.379 966 757.448 719 614C472 470.552 0 682.379 0 682.379V0Z" fill="url(#paint0_linear)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="-658.785" y1="360.953" x2="-121.423" y2="1463.22" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7D15A1"/>
+<stop offset="1" stop-color="#B675A8"/>
+</linearGradient>
+</defs>
+</svg>

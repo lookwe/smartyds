@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="7px" viewBox="0 0 8 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Positive Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.2425,10.77825 C6.8515,11.16925 6.2185,11.16925 5.8285,10.77825 L4.2925,9.24325 C3.9025,8.85225 3.9025,8.21925 4.2925,7.82825 C4.6835,7.43825 5.3165,7.43825 5.7065,7.82825 L6.5355,8.65725 L9.8995,5.29325 C10.2895,4.90225 10.9225,4.90225 11.3135,5.29325 C11.7045,5.68325 11.7045,6.31625 11.3135,6.70725 L7.2425,10.77825 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Checkbox/Active" transform="translate(-4.000000, -5.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Positive-Icon" fill="#FFFFFF" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

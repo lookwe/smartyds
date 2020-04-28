@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="767px" viewBox="0 0 1440 767" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>main_img</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#17E9B5" offset="0%"></stop>
+            <stop stop-color="#A024EA" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,0 L1440,0 L1440,661 C1178.66667,731.666667 938.666667,767 720,767 C501.333333,767 261.333333,731.666667 0,661 L0,0 Z" id="path-2"></path>
+    </defs>
+    <g id="Smartyads_web" stroke="none"  fill="none" fill-rule="evenodd">
+        <g id="In-House" transform="translate(0.000000, -63.000000)">
+            <g id="main_img" transform="translate(0.000000, 63.000000)">
+                <mask id="mask-3">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <path stroke="none" fill="url(#linearGradient-1)" d="M0.5,0.5 L0.5,660.617227 C261.649531,731.206338 501.483067,766.5 720,766.5 C938.516933,766.5 1178.35047,731.206338 1439.5,660.617227 L1439.5,0.5 L0.5,0.5 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
